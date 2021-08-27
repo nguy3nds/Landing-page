@@ -1,0 +1,45 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+  &-image {
+    max-width: 1900px;
+    width: 100%;
+    align-self: center;
+    max-height: w(1485px);
+  }
+  &-tittle {
+    font-size: w(110px);
+    margin-bottom: w(140px);
+    font-weight: 600;
+    color: $white;
+    line-height: w(142px);
+  }
+  &-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &-input {
+    margin-right: w(30px);
+  }
+  &-button {
+    padding: 0 w(100px);
+  }
+  &-bot {
+    img {
+      max-height: w(830px);
+    }
+    &-tittle {
+      font-size: w(80px);
+      margin-bottom: w(60px);
+    }
+  }
+  @include maxW(767px) {
+    &-tittle {
+      font-size: r(50px);
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+  }
+}

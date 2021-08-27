@@ -1,0 +1,7 @@
+@function w($s) {
+  @return $s / 4198 * 1920;
+}
+
+@function r($s) {
+  @return $s / 750 * 425;
+}

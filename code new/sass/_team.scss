@@ -1,0 +1,27 @@
+.team {
+  background-color: $white-bg;
+  padding: w(290px) 0;
+  &-tittle {
+    margin-bottom: w(120px);
+  }
+  &-main {
+    padding: 0 w(120px);
+  }
+  &-avatar {
+    margin: 0 auto;
+    height: w(480px);
+    width: w(480px);
+    border-radius: 50%;
+    overflow: hidden;
+    -moz-box-shadow: 1px 1px 2px 3px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 3px #ccc;
+    box-shadow: 1px 1px 2px 3px #ccc;
+    margin-bottom: w(50px);
+  }
+  &-name {
+    margin-bottom: w(30px);
+    font-weight: 700;
+    font-size: w(45px);
+    line-height: w(70px);
+  }
+}

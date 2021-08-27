@@ -1,0 +1,25 @@
+.footer {
+  padding: w(150px);
+  background-color: $white-bg;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-nav {
+    margin-bottom: w(40px);
+  }
+  &-item {
+    color: $blue-light;
+  }
+  &-dot {
+    margin: 0 w(34px);
+  }
+  &-copyright {
+    font-size: w(30px);
+  }
+  &-icon {
+    font-size: w(80px);
+    color: $blue-light;
+    margin-left: w(70px);
+  }
+}

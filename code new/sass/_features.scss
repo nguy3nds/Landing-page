@@ -1,0 +1,16 @@
+.features {
+  padding: w(320px) w(60px);
+  &-container {
+    grid-gap: 0 w(215px);
+  }
+  &-icon {
+    font-size: w(190px);
+    color: $blue-icon;
+    margin-bottom: w(70px);
+  }
+  &-tittle {
+    font-size: w(70px);
+    font-weight: 600;
+    margin-bottom: w(40px);
+  }
+}

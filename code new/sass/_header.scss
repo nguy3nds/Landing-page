@@ -1,0 +1,10 @@
+.header {
+  &-container {
+    height: w(140px);
+  }
+  &-logo {
+    font-size: w(50px);
+    line-height: w(140px);
+    margin: 0;
+  }
+}
